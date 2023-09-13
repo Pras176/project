@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.custom-date-picker {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: white; /* Text color */
+}
+
+/* Customize the DatePicker styles here */
+.react-datepicker {
+  border-radius: 16px;
+  background: #F8FBFF; /* Set the text color to white */
+}
+
+/* Customize DatePicker input style */
+.react-datepicker__input-container {
+  display: block;
+  
+}
+
+/* Customize DatePicker selected date input style */
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid white; /* Input border color */
+  background-color: #F8FBFF;; /* Input background color */
+  color: black; /* Input text color */
+}
+
+/* Customize DatePicker calendar style */
+.react-datepicker-popper {
+  z-index: 9999; /* Ensure the DatePicker appears above other elements */
+}
+.calendar-icons{
+  margin-left:-30px;
+  margin-top:15px;
+  position:absolute
+}
+.richeditor{
+  margin:0% 0%;
+}
+.richtext{
+background: #E9F2FF;
+}
+.rich-text-editor {
+  min-height: 110px !important;
+  max-height: 150px !important;
+  overflow: auto;
+  width:100%;
+  order: 1;
+  padding:10px;
+}
+.wrapper-class {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #E9F2FF !important;
+  border-radius: 10px !important;
+  margin: 30px;
+}
+.toolbar-calss {
+  width:100%;
+  background-color: #E9F2FF !important;
+  margin-bottom: 0px !important;
+  display:flex !important;
+  border-radius: 0px !important;
+  
+}
+.rdw-inline-wrapper{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  
+}
+.rdw-list-wrapper{
+  width:100%;
+  display:flex !important;
+  justify-content: space-around;
+}
+.inline-class-1 {
+  background-color: #E9F2FF !important;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  border-collapse: separate;
+  border-spacing: 0 8px; /* Adjust the spacing as needed */
+  border-radius: 30px;
+border: 1px solid #D5D5D5;
+background: #FFF;
+margin-left:5rem;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  height:7rem;
+
+}
+
+/* Style the table header */
+th {
+  padding: 3rem;
+  border-bottom: 2px solid #ddd; /* Add a thicker bottom border for header row */
+}
+
+/* Add border below thead */
+thead {
+  border-bottom: 2px solid #ddd;
+}
+
+/* Style table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+  padding:2rem;
+}
+
+/* Style table cells on hover */
+
+
+/* Style the Edit and Delete buttons */
+button {
+  padding: 5px 10px;
+  background-color: #4caf50; /* Green */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.edit {
+  background-color: #008CBA; /* Blue */
+}
+
+button.delete {
+  background-color: #f44336; /* Red */
+}
+

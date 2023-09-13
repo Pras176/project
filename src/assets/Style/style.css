@@ -1,0 +1,113 @@
+.input-first-div{
+    width:100%;
+    padding:6% 6% 0% 6%;
+    display: block;
+}
+.input-label{
+color: #263857;
+font-family: "Montserrat";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 18.2px */
+letter-spacing: 0.13px;
+}
+.input-feild{
+width: 100%;
+border-radius: 16px;
+background: #F8FBFF;
+height: 54px;
+padding:0% 4%;
+}
+.extra-input-feild{
+    border:1px solid red;
+}
+.extra-input-text{
+   color:red;
+    font:10px;
+}
+.extra-secondinput-feild{
+    border:1px solid #F8FBFF;
+}
+.home-background {
+  background-color: white;
+  width: 100%;
+  display: block;
+}
+.home-heading {
+    margin-top:2%;
+  color: var(--Dark-blue_01, #314363);
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.home-secondheading {
+    margin-top:2%;
+  color: var(--Dark-blue_01, #314363);
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.registration-background{
+    width:100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registration-table{
+    margin:1% 10%;
+    width:100vh;
+    height:100vh;
+    overflow: auto;
+    border-radius: 35px;
+    background: #FFF;
+    border:1px solid rgba(210, 209, 209, 0.25);
+box-shadow: 0px 4px 19px 0px rgba(210, 209, 209, 0.25);
+
+}
+.one-feild{
+    width: 100%;
+    display:flex;
+}
+.button-container{
+  width:100%;
+  height:10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0% 5%;
+}
+.cancel-button{
+  margin:0px 4px;
+  width:100%;
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: gray;
+  color:black !important;
+}
+.submit-button{
+  margin:0px 4px;
+  width:100%;
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: white !important;
+  color:black;
+  border:1px solid gray;
+
+}
+.view-table{
+  padding: 6%;
+}
+.reacticon{
+  margin-top: 1vh;
+}

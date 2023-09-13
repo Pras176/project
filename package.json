@@ -1,0 +1,36 @@
+{
+  "name": "agbiz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-react-richtexteditor": "^22.2.12",
+    "axios": "^1.5.0",
+    "bootstrap": "^5.2.3",
+    "draft-js": "^0.11.7",
+    "formik": "^2.4.4",
+    "json-server": "^0.17.3",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-datepicker": "^4.17.0",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-icons": "^4.11.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.15.0",
+    "react-toastify": "^9.1.3",
+    "reactstrap": "^9.1.9",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "vite": "^4.2.0"
+  }
+}

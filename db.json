@@ -1,0 +1,15 @@
+{
+  "posts": [
+    {
+      "FirstName": "Edeni",
+      "LastName": "Franco",
+      "DOB": "1985-12-19",
+      "Study": "B.E",
+      "StartDate": "1992-04-05",
+      "EndDate": "1983-03-24",
+      "CurrentSalary": "Pariatur Nulla omni",
+      "Description": "Hello",
+      "id": 1
+    }
+  ]
+}
